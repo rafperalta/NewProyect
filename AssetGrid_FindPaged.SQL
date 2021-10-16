@@ -8,7 +8,7 @@ ALTER Procedure [dbo].[AssetGrid_FindPagedResultsBySmartRuleId]
        @whereClause nvarchar(max) = null,
        @IncludeCounts bit /* If 1 row count will be returned as a column (slow), if 0 then -1 will be returned for row count (fast) */
 AS
-
+As 
 SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
 SET NOCOUNT ON;
 
